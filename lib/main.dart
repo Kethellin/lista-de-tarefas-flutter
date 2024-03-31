@@ -41,7 +41,7 @@ class _ListaAfazeresState extends State<ListaAfazeres> {
                       padding: const EdgeInsets.all(8),
                       child: ListTile(
                         title: Text(tarefas[index].titulo),
-                        trailing: Container(
+                        trailing: SizedBox(
                           width: 70,
                           child: Row(
                             children: [
