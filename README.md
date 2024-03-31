@@ -2,5 +2,5 @@
 
 Projeto de uma lista de tarefas básica, sem persistência de dados utilizando flutter.
 
-## Getting Started
+## Sobre o projeto
 Meu primeiro projeto utilizando a linguagem, nele podemos adicionar uma tarefa e marca-lá como concluida ou não, além de podermos editar ou excluir a mesma.
