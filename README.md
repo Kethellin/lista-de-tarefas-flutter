@@ -1,16 +1,6 @@
 # lista_afazeres
 
-A new Flutter project.
+Projeto de uma lista de tarefas básica, sem persistência de dados utilizando flutter.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Sobre o projeto
+Meu primeiro projeto utilizando a linguagem, nele podemos adicionar uma tarefa e marca-lá como concluida ou não, além de podermos editar ou excluir a mesma.
