@@ -58,10 +58,12 @@ class _ListaAfazeresState extends State<ListaAfazeres> {
                               Expanded(
                                 child: IconButton(
                                   onPressed: (){
-                                    addOuEditar = 'Alterar';
-                                    controlador.text = tarefas[index].titulo;
-                                    modo = 'editar';
-                                    indiceLista = index;
+                                    setState((){
+                                      addOuEditar = 'Editar';
+                                      controlador.text = tarefas[index].titulo;
+                                      modo = 'editar';
+                                      indiceLista = index;
+                                    });
                                   }, 
                                   icon: const Icon(Icons.edit),
                                 ),
